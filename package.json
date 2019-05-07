@@ -1,0 +1,29 @@
+{
+  "name": "airbnb-typescript-eslint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-airbnb": "eslint -c .airbnb.eslintrc.js --fix --ext .js,.jsx,.ts,.tsx ./src/",
+    "lint-custom": "eslint -c .custom.eslintrc.js --fix --ext .js,.jsx,.ts,.tsx ./src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.8.16",
+    "@typescript-eslint/eslint-plugin": "^1.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-typescript": "^3.0.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.11.0",
+    "prettier": "^1.17.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
